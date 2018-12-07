@@ -27,10 +27,10 @@ def generate_public_key(enc_exponent, modulus):
     """
     # TODO: Leo
     # temp value.  TODO change this to correct
-    n = 1
-    E = 1
+    n = 12
+    E = 65537
     public_key = (E,n)
-
+    
     return public_key
 
 
